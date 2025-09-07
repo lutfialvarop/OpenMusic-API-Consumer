@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/consumer.js",
         "start-dev": "nodemon src/consumer.js",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
