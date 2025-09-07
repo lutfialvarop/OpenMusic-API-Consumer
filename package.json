@@ -1,0 +1,29 @@
+{
+    "name": "openmusic-api-consumer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "nodemon src/consumer.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "amqplib": "^0.10.9",
+        "dotenv": "^17.2.2",
+        "nodemailer": "^7.0.6",
+        "nodemon": "^3.1.10",
+        "pg": "^8.16.3"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.35.0",
+        "eslint": "^9.35.0",
+        "eslint-config-dicodingacademy": "^0.9.5",
+        "globals": "^16.3.0"
+    }
+}
